@@ -1,4 +1,4 @@
-ompiled files
+# omit files
 *.tfstate
 *.tfstate.backup
 *.tfstate.lock.info
