@@ -27,5 +27,13 @@ terraform {
   }
 
   required_version = "~> 1.3"
+
+  cloud {
+    organization = "htunnthuthu"
+
+    workspaces {
+      name = "htunn-eks"
+    }
+  }
 }
 
